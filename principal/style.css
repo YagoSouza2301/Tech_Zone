@@ -183,3 +183,22 @@ header button {
 .section2 .serv div a {
     color: black;
 }
+
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+footer .menu {
+
+}
+footer .redes div {
+    display: flex;
+}
+footer .redes img {
+    width: 3vw;
+}
