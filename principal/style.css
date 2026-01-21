@@ -26,6 +26,7 @@ header {
     z-index: 999;
     top: 0;
     left: 0;
+    box-shadow: 0px 4px 20px blueviolet;
 }
 /* LOGO */
 header img {
