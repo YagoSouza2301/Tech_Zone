@@ -10,6 +10,7 @@
 html{
     width: 100%;
     height: 100vh;
+    background-color: black;
 }
 
 /* ========================================================================================= */
@@ -63,37 +64,45 @@ header button {
 /* ========================================================================================= */
 /* PRIMEIRA SESSÃO = NOS */
 .nos {
-    /* background-image: url(Colocar uma imagem de computador atras fixada); */
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.877) 8.3%,rgba(0, 0, 0, 0.692) 100%), url(../imagens/fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10rem;
+    padding: 20rem;
     margin-bottom: 50px;
 }
 .nos h2 {
     font-size: 60px;
+    color: white;
 }
 .nos p {
     font-size: 22px;
+    color: white;
 }
 .nos div {
-    background-color: blueviolet;
-    padding: 30px;
+    background-color: black;
+    opacity: 1;
+    box-shadow: 5px 8px 20px blueviolet;
+    padding: 35px;
     height: auto;
     border-radius: 30px 2px;
 }
 
 /* ========================================================================================= */
-/* PRIMEIRA SESSÃO = POSITIVOS */
+/* SEGUNDA SESSÃO = POSITIVOS */
 .positivos {
     color: white;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -134,7 +143,52 @@ header button {
     font-size: 18px;
 }
 
-
+/* ========================================================================================= */
+/* TERCEIRA SESSÃO = COMENTARIO */
+.comentario {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+.comentario .box {
+    color: aliceblue;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 5px -2px 20px blueviolet;
+    height:50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 2px;
+}
+.comentario .box div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    
+}
+.comentario .box div img {
+    width: 4vw;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.comentario .box div h4 {
+    font-size: 25px;
+}
+.comentario .box p {
+    font-size: 20px;
+}
 
 
 
