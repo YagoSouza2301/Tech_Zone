@@ -106,17 +106,19 @@ header button {
     color: aliceblue;
 }
 .section1box {
-height: 60vh;}
+height: 60vh;
+}
 .section1box #qualidade {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-top: -70px;
 }
 .section1box #qualidade div {
     padding: 25px;
-    height: 50vh;
-    width: 25vw;
+    height: 25rem;
+    width: 22rem;
     border: solid 3px blueviolet;
     border-radius: 30px 2px;
     box-shadow: 0px 4px 20px blueviolet;
@@ -166,16 +168,17 @@ height: 60vh;}
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    gap: 5px;
 }
 .section2 .serv {
     box-shadow: 10px 10px 20px blueviolet;
     margin: 5rem auto;
-    width: 25vw;
+    width: 23rem;
     height: auto;
     border-radius: 30px 0 30px 0;
 }
 .section2 .serv img {
-    width: 25vw;
+    width: 23rem;
     height: 32vh;
     border-radius: 30px 0 0 0;
 }
