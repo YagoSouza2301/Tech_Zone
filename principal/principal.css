@@ -44,6 +44,9 @@ header h1 {
     margin: auto;
     font-size: 60px;
 }
+header h1 a {
+    color: white;
+}
 /* MENU */
 header nav ul {
     margin: auto;
