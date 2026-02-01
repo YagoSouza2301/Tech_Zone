@@ -70,13 +70,12 @@ header button {
 }
 
 
-/* ========================Menu de Peças=========================== */
+/* ========================Configurar sessão=========================== */
 
 .vendas {
     width: 100%;
     height: auto;
     display: flex;
-    align-items: center;
     padding: 50px;
 }
 .vendas .menu-produtos button {
@@ -85,13 +84,15 @@ header button {
     justify-content: center;
     border: none;
 }
+
+/* ========================Menu de Peças=========================== */
 .menu-produtos {
     background-color: black;
     border-radius: 10px;
     border: solid 3px blueviolet;
     box-shadow: 2px 2px 20px blueviolet;
     width: 15rem;
-    height: auto;
+    height: 80vh;
     padding: 20px;
 }
 .menu-produtos h3 {
@@ -126,6 +127,60 @@ header button {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* ========================Peças=========================== */
+.produtos {
+    padding: 4rem;
+}
+.produtos h2 {
+    color: aliceblue;
+    font-size: 3.5em;
+    margin: -50px auto 50px;
+} 
+.produtos .pai-produto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.produtos .pai-produto div {
+    background-color: black;
+    border-radius: 10px;
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    border: solid 3px blueviolet;
+    box-shadow: 2px 2px 20px blueviolet;
+}
+.produtos .pai-produto div img {
+    width: 20vw;
+}
+.produtos .pai-produto div h4 {
+    font-size: 22px;
+    margin-bottom: 0.3rem;
+    color: white;
+}
+.produtos .pai-produto div p {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+}
+.produtos .pai-produto div button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(170deg, blueviolet 3%, rgb(20, 20, 20) 100%);
+}
+
 
 
 
