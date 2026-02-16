@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;  
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* RESPONSIVIDADE */
+html{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+/* ========================================================================================= */
+/* CABEÇARIO INTEIRO */
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 20px blueviolet;
+    padding: 50px;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+/* LOGO */
+header img {
+    margin: auto;
+    height: 12vh;
+}
+/* TÍTULO */
+header h1 {
+    margin: auto;
+    font-size: 60px;
+}
+header h1 a {
+    color: white;
+}
+/* MENU */
+header nav ul {
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+}
+header nav ul li a {
+    color: aliceblue;
+    font-size: 22px;
+    
+}
+header button {
+    margin: 50px;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-color: blueviolet;
+}
+
+
+
+/* ========================Formulario=========================== */
+.orcamento {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        background-image:url(../imagens/PRINCIPAL.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* Caixa do orçamento */
+.orcamento #div {
+    text-align: center;
+    width: 60%;
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    color: white;
+    box-shadow: 6px 7px 32px blueviolet;
+}
+/* Sub-título */
+#div h2 {
+    font-size: 40px;
+    color: blueviolet;
+    text-shadow: 2px 2px 4px black;
+}
+/* paragrafo */
+#div p {
+    font-size: 25px;
+}
+/* Ajuste da caixa do formulario */
+.orcamento .form {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 5em;
+}
+/* Edição dda direita e da esquerda */
+.form label {
+    font-size: 22px;
+}
+/* Lado Esquerdo */
+.form .left input {
+    font-size: 15px;
+    width: 18vw;
+}
+.form .left select {
+    width: 18vw;
+    font-size: 15px;
+}
+.form .left option {
+    font-size: 15px;
+}
+
+/* Lado direito */
+.form .rigth {
+    display: flex;
+    flex-direction: column;
+}
+.form .rigth textarea {
+    font-size: 17px
+}
+.form .rigth .button-edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.form .rigth button {
+    width: 12vw;
+    height: 4vh;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
+    border-color: blueviolet;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+}
+
+
+
+/* RODAPÉ */
+footer {
+    background-color: blueviolet;
+    width: 100%;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul li {
+    margin-bottom: 4px;
+}
+footer ul li a {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .redes h3 {
+    font-size: 25px;
+    margin-bottom: -20px;
+    text-decoration: underline;
+}
+footer .redes .rede {
+    display: flex;
+}
+footer img {
+    width: 8vh;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="orcamento.css">
+        <link rel="shortcut icon" href="/imagens/computador.webp" type="image/x-icon">
+        <script src="orcamento.js" defer></script>
+        <title>Tech Zone|Peças</title>
+    </head>
+    <body>
+        <!-- CABEÇARIO -->
+        <header>
+
+            <div>
+
+                <img src="../imagens/LOGO.png" alt="LOGO">
+
+                <h1><a href="principal.html">Tech Zone</a></h1>
+            </div>
+
+            <div>
+
+                <nav>
+                    <ul>
+                        <li><a href="principal.html" class="Principal">Principal</a></li>
+                        <li><a href="sobre.html" class="Sobre">Sobre</a></li>
+                        <li><a href="principal.html" class="Serviços">Serviços</a></li>
+                    </ul>
+                </nav>
+
+                <button type="button">Orçamento</button>
+            </div>
+
+        </header>
+
+
+
+
+
+
+
+        <!-- PRINCIPAL -->
+         <main>
+
+             <section class="orcamento">
+
+                <div id="div">
+                    <h2>Orçamento</h2>
+                    <p>Para que você tenha uma ótima experiência selecione abaixo as informações corretamente</p>
+
+                    <div class="form">
+
+                        <div class="left">
+
+                            <form action="" method="post">
+                                
+                                <label for="nome">Nome Completo</label> <br>
+                                <input type="text" required> <br><br>
+
+                                <label for="cpf">CPF/CNPJ (opcional)</label> <br>
+                                <input type="tel" placeholder="123.456.789-01" maxlength="14"> <br><br>
+
+                                <label for="endereco">Endereço (opcional)</label> <br>
+                                <input type="text" placeholder="Rua teste, n1, 08000-000"> <br><br>
+                                
+                                
+                                <label for="email">Email</label><br>
+                                <input type="email" placeholder="exemplo@gamil.com" required><br><br>
+                                
+                                <label for="numero">Núemro</label><br>
+                                <input type="tel" placeholder="(11) 91234-5678" maxlength="14" required><br><br>
+                            
+                                <label for="servico">Serviço</label><br>
+                                <select name="Servicos" id="servico" required>
+                                    <option value="Escolher">Selecione o seu problema</option>
+                                    <option value="Montage">Montage</option>
+                                    <option value="Limpeza">Limpeza</option>
+                                    <option value="Formatacao">Formatação</option>
+                                    <option value="Substituicao">Substituicao</option>
+                                    <option value="Ativacao">Ativação</option>
+                                    <option value="Outros">Outros assuntos</option>
+                                </select>
+
+                                
+                            </div>
+                            
+                            <div class="rigth">
+                                <label for="">Descrição</label>
+                                <textarea name="" id="" rows= "10" cols="50" placeholder="Fale um pouco mais sobre o seu problema"></textarea>
+                                <br>
+                                <div class="button-edit">
+                                    <button type="submit">Enviar</button>
+                                    <button type="reset">Apagar</button>
+                                </div>
+                            </form>
+                                
+                            </div>
+                            
+                    </div>
+
+                </div>
+
+             </section>
+
+            </main>
+            
+
+
+
+
+
+
+
+
+
+
+            <!-- RODAPÉ -->
+            <footer>
+                <div class="menu">
+                    <nav>
+                    <ul>
+
+                        <li>
+                            <a href>
+                                Sobre
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#serviços">
+                                Serviços
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href>
+                                Peças
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href>
+                                Contato
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href>
+                                Politica de Privacidade
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="redes">
+                <h3>REDES SOCIAIS</h3><br>
+                <div class="rede">
+
+                    <a href>
+                        <img src="/imagens/zap.webp" alt="zap">
+                    </a>
+
+                    <a href>
+                        <img src="/imagens/insta.webp" alt="insta">
+                    </a>
+
+                    <a href>
+                        <img src="/imagens/telegram.webp" alt="tele">
+                    </a>
+
+                </div>
+            </div>
+
+        </footer>
+
+        
+    </body>
+</html>
