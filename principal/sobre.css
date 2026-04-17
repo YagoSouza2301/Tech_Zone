@@ -117,7 +117,6 @@ header button a:hover {
 }
 .nos div {
     background-color: black;
-    opacity: 1;
     box-shadow: 5px 8px 20px blueviolet;
     padding: 35px;
     height: auto;
@@ -139,8 +138,8 @@ header button a:hover {
     padding: 50px;
 }
 .positivos .h3 {
-    margin: -20px auto 30px;
-    font-size: 35px;
+    margin: -30px auto 60px;
+    font-size: 50px;
 }
 .positivos #pontos {
     display: flex;
@@ -150,20 +149,22 @@ header button a:hover {
 }
 .positivos #pontos div {
     padding: 25px;
-    height: 50vh;
-    gap: 10px;
+    width: 25vw;
+    height: 55vh;
+    margin-left: 3rem;
     border: solid 3px blueviolet;
     border-radius: 30px 2px;
     box-shadow: 0px 4px 20px blueviolet
 
 }
 .positivos #pontos div img {
-    width: 3vw;
+    width: 4vw;
     margin-bottom: 10px;
     background-color: white;
     border-radius: 50%;
 }
 .positivos #pontos div h3 {
+    color: blueviolet;
     font-size: 25px;
     margin-bottom: 20px;
 } 
@@ -185,7 +186,7 @@ header button a:hover {
 }
 .comentario .box {
     color: aliceblue;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(0, 0, 0);
     box-shadow: 2px 1px 20px blueviolet;
     height:51vh;
     width: 16vw;
@@ -227,49 +228,6 @@ header button a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* RODAPÉ */
 footer {
     background-color: blueviolet;
@@ -304,4 +262,25 @@ footer .redes .rede {
 }
 footer img {
     width: 8vh;
+}
+
+
+
+@media (max-width: 1280px) {
+header button {
+    width: 12vw;
+    height: 5vh;
+}
+.nos div {
+    width: 70vw;
+}
+.positivos #pontos div {
+    margin-left: 1rem;
+    width: 29vw;
+    height: 52vh;
+}
+.comentario .box {
+    height:51vh;
+    width: 22vw;
+}
 }

@@ -5,9 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-*:hover {
-    transition: 0.5s;
-}
 
 /* RESPONSIVIDADE */
 html{
@@ -93,6 +90,20 @@ header button a:hover {
 }
 
 
+.zap {
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+    width: 3.5rem;
+    opacity: 0.5;
+    transition: 0.7s ease;
+    }
+.zap:hover {
+    opacity: 1;
+    filter: drop-shadow(5px 5px 5px green);
+    }
+
 
 /* SESSÃO 1 */
 .section1 {
@@ -151,7 +162,7 @@ height: 60vh;
 .section1box #qualidade div {
     padding: 25px;
     height: 25rem;
-    width: 22rem;
+    width: 25rem;
     border: solid 3px blueviolet;
     border-radius: 30px 2px;
     box-shadow: 0px 4px 20px blueviolet;
@@ -168,7 +179,7 @@ height: 60vh;
 }
 .section1box #qualidade div h3 {
     font-size: 25px;
-    color: white;
+    color: blueviolet;
 } 
 .section1box #qualidade div p {
     font-size: 18px;
@@ -194,7 +205,7 @@ height: 60vh;
 /* PARAGRAFO */
 .section2 .p {
     font-size: 22px;
-    margin: 0 20rem 1rem;
+    margin: 0 6rem 1rem;
     text-align: center;
 }
 .section2 .SERV {
@@ -246,7 +257,7 @@ height: 60vh;
 }   
 .section2 .serv div a:hover {
     transition: 0.7s;
-    font-size: 26px;
+    font-size: 30px;
     text-shadow: 2px 3px 7px blueviolet;
     transform: scale(1.01);
 }
@@ -285,4 +296,34 @@ footer .redes .rede {
 }
 footer img {
     width: 8vh;
+}
+
+
+
+@media (max-width: 1280px) {
+header button {
+    width: 12vw;
+    height: 5vh;
+}
+
+
+.section1 {
+    height: 50vw;
+}
+    
+.section1 button {
+    width: 27vw;
+    height: 6vh;
+}
+.section1box #qualidade div {
+    height: 28rem;
+}
+.section1box #qualidade div h3 {
+    font-size: 30px;
+    margin-bottom: 0.1rem;
+}
+.section1box #qualidade div p {
+    font-size: 22px;
+    color: white;
+}
 }

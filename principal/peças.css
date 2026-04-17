@@ -204,13 +204,6 @@ header button a:hover {
 
 
 
-
-
-
-
-
-
-
 /* RODAPÉ */
 footer {
     background-color: blueviolet;
@@ -245,4 +238,16 @@ footer .redes .rede {
 }
 footer img {
     width: 8vh;
+}
+
+
+@media (max-width: 1280px) {
+header button {
+    width: 12vw;
+    height: 5vh;
+}
+.produtos .pai-produto {
+    width: 80vw;
+    display: flex;
+}
 }
