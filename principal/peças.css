@@ -90,7 +90,19 @@ header button a:hover {
 
 
 
-
+.zap {
+    position: fixed;
+    z-index: 999;
+    bottom: 5px;
+    right: 5px;
+    width: 6rem;
+    opacity: 0.5;
+    transition: 0.7s ease;
+    }
+.zap:hover {
+    opacity: 1;
+    filter: drop-shadow(1px 1px 5px greenyellow);
+    }
 /* ========================Configurar sessão=========================== */
 
 .vendas {
@@ -206,21 +218,21 @@ header button a:hover {
 
 /* RODAPÉ */
 footer {
-    background-color: blueviolet;
+    background: linear-gradient(180deg, black 33%, blueviolet 100%);
     width: 100%;
     height: 22vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 footer ul li {
     margin-bottom: 4px;
 }
 footer ul li a {
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 20px;
-    text-decoration: underline;
 }
 footer .redes {
     display: flex;
@@ -229,6 +241,7 @@ footer .redes {
     justify-content: center;
 }
 footer .redes h3 {
+    color: blueviolet;
     font-size: 25px;
     margin-bottom: -20px;
     text-decoration: underline;
@@ -236,8 +249,24 @@ footer .redes h3 {
 footer .redes .rede {
     display: flex;
 }
-footer img {
-    width: 8vh;
+footer i {
+    width: 5vh;
+    margin: 10px;
+    font-size: 35px;
+    color: black;
+    transition: 0.7s ease;
+}
+footer .fa-whatsapp:hover{
+    color: greenyellow;
+    filter: drop-shadow(1px 1px 5px greenyellow);
+}
+footer .fa-instagram:hover{
+    color: rgb(200, 49, 255);
+    filter: drop-shadow(1px 1px 5px rgb(200, 49, 255));
+}
+footer .fa-telegram:hover{
+    color: rgb(0, 119, 255);
+    filter: drop-shadow(1px 1px 5px rgb(0, 119, 255));
 }
 
 

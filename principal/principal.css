@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     list-style: none;  
     text-decoration: none;
     box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+
 }
 
 /* RESPONSIVIDADE */
@@ -93,22 +96,22 @@ header button a:hover {
 .zap {
     position: fixed;
     z-index: 999;
-    bottom: 20px;
-    right: 20px;
-    width: 3.5rem;
+    bottom: 5px;
+    right: 5px;
+    width: 6rem;
     opacity: 0.5;
     transition: 0.7s ease;
     }
 .zap:hover {
     opacity: 1;
-    filter: drop-shadow(5px 5px 5px green);
+    filter: drop-shadow(1px 1px 5px greenyellow);
     }
 
 
 /* SESSÃO 1 */
 .section1 {
     width: 100%;
-    height: 40vw;
+    height: 50vw;
     background-image: url(../imagens/PRINCIPAL.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +153,7 @@ header button a:hover {
     cursor: pointer;
 }
 .section1box {
-height: 60vh;
+height: 70vh;
 }
 .section1box #qualidade {
     display: flex;
@@ -161,8 +164,8 @@ height: 60vh;
 }
 .section1box #qualidade div {
     padding: 25px;
-    height: 25rem;
-    width: 25rem;
+    height: 29rem;
+    width: 28rem;
     border: solid 3px blueviolet;
     border-radius: 30px 2px;
     box-shadow: 0px 4px 20px blueviolet;
@@ -172,7 +175,7 @@ height: 60vh;
     background-color: black;
 }
 .section1box #qualidade div img {
-    width: 4vw;
+    width: 4.2vw;
     background-color: white;
     color: aliceblue;
     border-radius: 50%;
@@ -182,7 +185,7 @@ height: 60vh;
     color: blueviolet;
 } 
 .section1box #qualidade div p {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 
@@ -212,6 +215,7 @@ height: 60vh;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    gap: 10px;
 }
 .section2 .serv {
     opacity: 0.5;
@@ -264,22 +268,32 @@ height: 60vh;
 
 /* RODAPÉ */
 footer {
-    background-color: blueviolet;
+    background: linear-gradient(180deg, black 33%, blueviolet 100%);
     width: 100%;
     height: 22vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 footer ul li {
     margin-bottom: 4px;
 }
 footer ul li a {
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 20px;
-    text-decoration: underline;
 }
+
+footer iframe {
+    opacity: 0.3;
+    transition: 0.7s ease;
+}
+footer iframe:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
 footer .redes {
     display: flex;
     flex-direction: column;
@@ -287,6 +301,7 @@ footer .redes {
     justify-content: center;
 }
 footer .redes h3 {
+    color: blueviolet;
     font-size: 25px;
     margin-bottom: -20px;
     text-decoration: underline;
@@ -294,9 +309,26 @@ footer .redes h3 {
 footer .redes .rede {
     display: flex;
 }
-footer img {
-    width: 8vh;
+footer i {
+    width: 5vh;
+    margin: 10px;
+    font-size: 35px;
+    color: black;
+    transition: 0.7s ease;
 }
+footer .fa-whatsapp:hover{
+    color: greenyellow;
+    filter: drop-shadow(1px 1px 5px greenyellow);
+}
+footer .fa-instagram:hover{
+    color: rgb(200, 49, 255);
+    filter: drop-shadow(1px 1px 5px rgb(200, 49, 255));
+}
+footer .fa-telegram:hover{
+    color: rgb(0, 119, 255);
+    filter: drop-shadow(1px 1px 5px rgb(0, 119, 255));
+}
+
 
 
 
@@ -308,7 +340,7 @@ header button {
 
 
 .section1 {
-    height: 50vw;
+    height: 65vw;
 }
     
 .section1 button {
@@ -316,7 +348,7 @@ header button {
     height: 6vh;
 }
 .section1box #qualidade div {
-    height: 28rem;
+    height: 32rem;
 }
 .section1box #qualidade div h3 {
     font-size: 30px;
