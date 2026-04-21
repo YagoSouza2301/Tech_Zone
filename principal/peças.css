@@ -234,6 +234,14 @@ footer ul li a {
     font-weight: 800;
     font-size: 20px;
 }
+footer iframe {
+    opacity: 0.3;
+    transition: 0.7s ease;
+}
+footer iframe:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
 footer .redes {
     display: flex;
     flex-direction: column;
