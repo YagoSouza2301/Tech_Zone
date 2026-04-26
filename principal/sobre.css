@@ -188,9 +188,40 @@ header button a:hover {
 .positivos #pontos div p {
     font-size: 18px;
 }
+/* ========================================================================================= */
+/* TERCEIRA SESSÃO - NOSSO GRUPO */
+.grupo {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grupo .top {
+    display: flex;
+    gap: 20rem;
+
+}
+.grupo .top div{
+    background-color: black;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 30px 2px;
+    box-shadow: 5px 8px 20px blueviolet; 
+}
+.top .texto {
+    margin-bottom: 70px;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+.top .foto_grupo {
+    margin-top: 70px;
+}
+
 
 /* ========================================================================================= */
-/* TERCEIRA SESSÃO = COMENTARIO */
+/* QUARTA SESSÃO = COMENTARIO */
 .comentario {
     width: 100%;
     height: auto;
